@@ -1,14 +1,16 @@
-import './App.css'
-import Navbar from './components/Navbar'
+
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
 
 function App() {
-
   return (
-    <>
-      <div className="bg-[#0a192f] min-h-screen font-sans"></div>
+    <div className="min-h-screen">
       <Navbar />
-    </>
-  )
+      <HeroSection />
+    </div>
+  );
 }
 
 export default App
+
+// bg-[#002D3A]
