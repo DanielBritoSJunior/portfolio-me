@@ -13,7 +13,7 @@ module.exports = {
       keyframes: {
         'infinite-scroll': {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-50%)' }, // Rola metade do conteúdo
+          to: { transform: 'translateX(-100%)' }, // Rola metade do conteúdo
         }
       },
       animation: {
