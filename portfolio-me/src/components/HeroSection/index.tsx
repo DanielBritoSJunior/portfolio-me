@@ -23,8 +23,8 @@ const HeroSection: React.FC = () => {
           Sou um(a) desenvolvedor(a) de software especializado(a) em criar (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado(a) em construir produtos acessíveis e centrados no ser humano em <a href="#" className="text-teal-400 hover:underline">Upstatement</a>.
         </p>
         <div className="mt-12">
-          <Botao href="#">
-            Ver meu curso!
+          <Botao href="#projects">
+            Ver meus projetos!
           </Botao>
         </div>
         
