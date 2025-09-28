@@ -1,33 +1,56 @@
 // src/components/HeroSection.tsx
 import React from 'react';
-// src/components/HeroSection/index.tsx
 import Botao from '../Botao';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="bg-[#0a192f] text-white min-h-screen flex items-center justify-center p-8 pt-24">
-      <div className="max-w-4xl mx-auto text-left">
-        <p className="text-sm md:text-base text-teal-400 font-mono mb-4">
-          Olá, meu nome é
+    // CONTAINER DA SEÇÃO: Alinhamento à esquerda
+    <section className="bg-[#0a192f] text-white min-h-screen flex items-center p-1 pt-24">
+      
+      {/* CONTAINER DO CONTEÚDO: Margens auto, alinhado à esquerda */}
+      <div className="max-w-4xl mx-auto text-left pl-10 md:pl-0"> 
+        
+        {/* LINHA 1: Olá, meu nome é */}
+        <p className="text-sm md:text-base text-teal-400 font-mono mb-1">
+            Olá, meu nome é
         </p>
         
-        <h1 className="text-4xl md:text-6xl font-bold text-slate-200 mb-2">
-          Daniel Júnior.
+        {/* LINHA 2: NOME */}
+        <h1 className="text-white text-7xl font-bold mb-4 leading-none"> 
+            Daniel Júnior.
         </h1>
         
-        <h2 className="text-3xl md:text-5xl font-semibold text-slate-400 mb-8">
-          Eu construo coisas para a web.
+        {/* LINHA 3: TÍTULO PRINCIPAL */}
+        <h2 className="text-gray-400 text-4xl font-semibold mb-8">
+            Eu construo soluções Full-Stack acessíveis
         </h2>
         
-        <p className="text-base md:text-lg text-slate-400 leading-relaxed max-w-2xl">
-          Sou um(a) desenvolvedor(a) de software especializado(a) em criar (e ocasionalmente projetar) experiências digitais excepcionais. Atualmente, estou focado(a) em construir produtos acessíveis e centrados no ser humano em <a href="#" className="text-teal-400 hover:underline">Upstatement</a>.
+        {/* LINHA 4: DESCRIÇÃO */}
+        <p className="text-base md:text-lg text-slate-400 leading-relaxed max-w-lg mb-12">
+            Especialista em criar experiências digitais fluidas com <span className="text-teal-400">React</span>, <span className="text-teal-400">Node.js</span> e <span className="text-teal-400">Type-Script.</span>
         </p>
-        <div className="mt-12">
-          <Botao href="#projects">
+        
+        {/* BOTÕES DE AÇÃO (Layout e Estilo Finalizado) */}
+        <div className="flex space-x-4"> 
+          
+          {/* BOTÃO 1: VER PROJETOS (Estilo Outline / Borda) */}
+          <Botao 
+            href="#projects"
+            className="border border-teal-400 text-teal-400 hover:bg-teal-400/10" 
+          >
             Ver meus projetos!
           </Botao>
+
+          {/* BOTÃO 2: DOWNLOAD CV (Estilo Sólido / Preenchido) */}
+          <Botao 
+            href="/caminho/para/seu/curriculo.pdf" 
+            download="Daniel-Junior-CV.pdf"
+            target="_blank" 
+            className="border border-teal-400 text-teal-400 hover:bg-teal-400/10"
+          >
+            Download CV
+          </Botao>
         </div>
-        
       </div>
     </section>
   );
