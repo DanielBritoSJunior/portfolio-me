@@ -10,10 +10,10 @@ const Navbar: React.FC = () => {
     // Links de navegação (para facilitar a reutilização)
     const navItems = (
         <>
-            <li><a href="#about" className="hover:text-teal-400 transition">01. About</a></li>
-            <li><a href="#experience" className="hover:text-teal-400 transition">02. Experience</a></li>
-            <li><a href="#projects" className="hover:text-teal-400 transition">03. Work</a></li>
-            <li>
+            <li><a href="#about" className="hover:text-teal-400 transition"><span className="text-teal-400 no-underline">01.</span> Sobre mim</a></li>
+            <li><a href="#projects" className="hover:text-teal-400 transition"><span className="text-teal-400 no-underline">02.</span> Projetos</a></li>
+            <li><a href="#contact" className="hover:text-teal-400 transition"><span className="text-teal-400 no-underline">03.</span> Contato</a></li>
+            {/* <li>
                 <a 
                     href="/caminho/para/seu/curriculo.pdf" 
                     target="_blank"
@@ -27,9 +27,9 @@ const Navbar: React.FC = () => {
                         transition
                     "
                 >
-                    Resume
+                    Meu curriculo
                 </a>
-            </li>
+            </li> */}
         </>
     );
 
@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
             bg-[#0a192f]/90 
             backdrop-blur-md 
             fixed top-0 w-full z-30 
-            flex justify-end items-center px-6 md:px-10 py-6 text-sm text-gray-300
+            flex justify-end items-center px-9 md:px-10 py-9 text-sm text-gray-300
         ">
             
             {/* 1. Menu Hamburguer (VISÍVEL SÓ NO MOBILE) */}
