@@ -9,6 +9,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // ⬇️ ADICIONANDO CONFIGURAÇÃO DE FONTES ⬇️
+      fontFamily: {
+        // Fonte Sans-serif principal (Títulos e Corpo)
+        sans: ['Inter', 'sans-serif'], 
+        // Fonte Monospace para menus e áreas de código
+        mono: ['Fira Code', 'monospace'],
+      },
+      // ⬆️ FIM DA CONFIGURAÇÃO DE FONTES ⬆️
+      
       // Configuração da Animação de Carrossel
       keyframes: {
         'infinite-scroll': {
