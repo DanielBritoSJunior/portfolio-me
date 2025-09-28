@@ -5,11 +5,12 @@ import React from 'react';
 const AboutSection: React.FC = () => {
     // Texto do seu portfólio (tradução do exemplo em inglês para o português)
     const bioText = {
-        paragraph1: "Olá! Meu nome é Daniel Júnior e eu gosto de criar coisas que vivem na internet. Meu interesse em desenvolvimento web começou em [ANO] quando decidi tentar editar temas customizados do [Plataforma Antiga] — acontece que 'hackear' um botão de reblog customizado me ensinou muito sobre HTML & CSS!",
-        paragraph2: "Avançando para hoje, tive o privilégio de trabalhar em [Agência de Publicidade], uma [Startup], uma [Grande Corporação], e um [Estúdio de Design Liderado por Estudantes]. Meu foco principal hoje em dia é construir produtos acessíveis, inclusivos e experiências digitais em [Nome da Empresa] para uma variedade de clientes.",
-        paragraph3: "Recentemente, também lancei um curso que cobre tudo o que você precisa para construir uma aplicação web com a API do Spotify usando Node & React.",
-    };
+        paragraph1: "Olá! Meu nome é Daniel Brito da Silva Júnior e sou um desenvolvedor Full-Stack em formação, focado em construir aplicações que funcionam perfeitamente na web. Minha jornada no código começou em 2024, quando tive o primeiro contato com HTML e CSS na faculdade. Logo percebi a paixão por transformar ideias em experiências digitais e fluidas.",
 
+        paragraph2: "Desde então, tenho me dedicado ao ecossistema moderno do React. No meu terceiro semestre, já tive o privilégio de desenvolver projetos complexos como o 'CozinhAi', onde apliquei Next.js, TypeScript e integração de API para criar soluções reais. Meu foco é sempre em código limpo, componentização e usabilidade centrada no usuário.",
+
+        paragraph3: "Sou um profissional proativo, com grande facilidade de aprendizado e colaboração. Busco uma oportunidade para aplicar meu domínio em React, Node.js e ferramentas modernas, contribuindo ativamente em um time que valoriza a inovação e o crescimento contínuo."
+    };
     const technologies = [
         'JavaScript',
         'TypeScript',
@@ -31,7 +32,7 @@ const AboutSection: React.FC = () => {
                 <div className="grid md:grid-cols-3 gap-12 items-start">
                     
                     {/* Coluna 1: Texto (Ocupa 2/3 da largura) */}
-                    <div className="text-lg space-y-4 text-gray-400 md:col-span-2">
+                    <div className="text-lg space-y-4 text-gray-400 md:col-span-2 text-justify">
                         <p>{bioText.paragraph1.replace('[ANO]', '2012')}</p>
                         <p>{bioText.paragraph2.replace('[Agência de Publicidade]', 'uma agência de publicidade')}</p>
                         <p>{bioText.paragraph3}</p>
