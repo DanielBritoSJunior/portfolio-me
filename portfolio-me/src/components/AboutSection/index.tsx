@@ -17,6 +17,9 @@ const AboutSection: React.FC = () => {
         'React',
         'Next.js',
         'Node.js',
+        'HTML & CSS',
+        'Git & GitHub',
+        'Tailwind CSS',
         
     ];
 

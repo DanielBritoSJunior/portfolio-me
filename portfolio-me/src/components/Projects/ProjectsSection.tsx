@@ -3,6 +3,8 @@ import Card, { type ProjectCardProps } from '../Card';
 import ImageCozinhAi from '../../assets/CozinhAI.jpeg';
 import ImageXoDengue1 from '../../assets/XoDengue1.jpeg';
 import ImageXoDengue2 from '../../assets/XoDengue2.png';
+import ImageWeatherApp from '../../assets/weatherapp.png';
+import ImageApiCadastro from '../../assets/apicadastro.png';
 
 interface ProjectData extends ProjectCardProps {
     id: number;
@@ -36,7 +38,25 @@ const projects: ProjectData[] = [
         githubLink: 'https://github.com/DanielBritoSJunior/pi-3sem',
         liveLink: 'https://pi-3sem.vercel.app/',
         technologies: []
-    }
+    },
+    {
+        id: 4,
+        title: 'Weather App - React',
+        description: 'Web App de consulta de clima em tempo real, desenvolvido para criar uma experiência minimalista e altamente funcional. O foco principal foi na arquitetura de código, robustez e solução de problemas de produção. O projeto utiliza TypeScript para garantir tipagem forte e validação completa dos dados recebidos da OpenWeatherMap API (temperatura, umidade, vento), aumentando a segurança e escalabilidade do aplicativo. A gestão de estado é feita através de hooks customizados (useWeather), isolando a lógica de busca e o gerenciamento de múltiplos estados (loading, erro, dados).',
+        image: ImageWeatherApp, 
+        githubLink: 'https://github.com/DanielBritoSJunior/Clima-App',
+        liveLink: 'https://clima-390ublyzj-danielbritosjuniors-projects.vercel.app',
+        technologies: []
+    },
+    {
+        id: 3,
+        title: 'API de Cadastro - Node.js',
+        description: 'Projeto de backend focado na criação de uma API RESTful completa para o gerenciamento de dados de usuários.Esta API utiliza Node.js e o framework Express para roteamento eficiente e tratamento de requisições. O banco de dados MongoDB (NoSQL) é usado para a persistência de dados, garantindo flexibilidade e escalabilidade nas operações de CRUD (Cadastro, Listagem, Edição e Remoção de usuários).A camada de integração de serviços (service layer) utiliza a biblioteca Axios para consumo de endpoints externos.',
+        image: ImageApiCadastro, 
+        githubLink: 'https://github.com/DanielBritoSJunior/api-cadastro',
+        liveLink: 'https://frontend-cadastro-ten.vercel.app/',
+        technologies: []
+    },
 ];
 
 const ProjectsSection: React.FC = () => {
