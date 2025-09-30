@@ -1,7 +1,7 @@
 import React from 'react';
 import Card, { type ProjectCardProps } from '../Card'; 
-import ImageCozinhAi from '../../assets/CozinhAI.png';
-import ImageXoDengue1 from '../../assets/XoDengue1.png';
+import ImageCozinhAi from '../../assets/CozinhAI.jpeg';
+import ImageXoDengue1 from '../../assets/XoDengue1.jpeg';
 import ImageXoDengue2 from '../../assets/XoDengue2.png';
 import ImageWeatherApp from '../../assets/weatherapp.png';
 import ImageApiCadastro from '../../assets/apicadastro.png';
