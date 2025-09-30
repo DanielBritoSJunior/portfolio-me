@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
                     border border-teal-400 
                     py-1 px-2 leading-none
                 ">
-                    @   DanielBritoSJunior
+                    @DanielBritoSJunior
                 </span>
             </div>
             {/* ⬆️ FIM LOGO ESQUERDO ⬆️ */}
