@@ -8,7 +8,7 @@ import ContactSection from './components/ContactSection';
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen verflow-x-hidden scroll-smooth">
       <Navbar />
       <HeroSection />
       <TechCarousel />
