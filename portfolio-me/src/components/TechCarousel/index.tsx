@@ -52,8 +52,6 @@ const techLogos = [
 ];
 
 const TechCarousel: React.FC = () => {
-    
-    // NOTA: Para usar 20 logos, continue o padrão acima até chegar a 20 e duplique a lista inteira.
 
     return (
         <div className="w-full bg-[#0a192f] py-8 overflow-hidden relative ">
@@ -69,7 +67,6 @@ const TechCarousel: React.FC = () => {
                           opacity-70 hover:opacity-100 transition duration-300
                         "
                     >
-                        {/* ⬇️ Renderiza a imagem diretamente da URL ⬇️ */}
                         <img 
                             src={tech.src} 
                             alt={tech.name} 

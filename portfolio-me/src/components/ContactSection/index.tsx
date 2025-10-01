@@ -10,7 +10,6 @@ const socialLinks = [
 
 const ContactSection: React.FC = () => {
     
-    // O seu endereço de e-mail
     const emailAddress = 'danielbritodasilvajunior@gmail.com';
 
     return (

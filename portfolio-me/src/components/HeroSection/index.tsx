@@ -10,22 +10,22 @@ const HeroSection: React.FC = () => {
       {/* CONTAINER DO CONTEÚDO: Margens auto, alinhado à esquerda */}
       <div className="max-w-4xl mx-auto text-left pl-10 md:pl-0"> 
         
-        {/* LINHA 1: Olá, meu nome é */}
+        {/* LINHA 1*/}
         <p className="text-sm md:text-base text-teal-400 font-mono mb-1">
             Olá, meu nome é
         </p>
         
-        {/* LINHA 2: NOME */}
+        {/* LINHA 2 */}
         <h1 className="text-white text-7xl font-bold mb-4 leading-none"> 
             Daniel Júnior.
         </h1>
         
-        {/* LINHA 3: TÍTULO PRINCIPAL */}
+        {/* LINHA 3 */}
         <h2 className="text-gray-400 text-4xl font-semibold mb-8">
             Eu construo soluções Full-Stack acessíveis
         </h2>
         
-        {/* LINHA 4: DESCRIÇÃO */}
+        {/* LINHA 4 */}
         <p className="text-base md:text-lg text-slate-400 leading-relaxed max-w-lg mb-12">
             Especialista em criar experiências digitais fluidas com <span className="text-teal-400">React</span>, <span className="text-teal-400">Node.js</span> e <span className="text-teal-400">Type-Script.</span>
         </p>
@@ -36,7 +36,7 @@ const HeroSection: React.FC = () => {
           {/* BOTÃO 1: VER PROJETOS (Estilo Outline / Borda) */}
           <Botao 
             href="#projects"
-            className="border border-teal-400 text-teal-400 hover:bg-teal-400/10" 
+            className="border border-teal-400 text-teal-400 hover:bg-teal-400" 
           >
             Ver meus projetos!
           </Botao>

@@ -1,10 +1,5 @@
 import React from 'react';
 import Card, { type ProjectCardProps } from '../Card'; 
-// import ImageCozinhAi from '../../assets/CozinhAI.jpeg';
-// import ImageXoDengue1 from '../../assets/XoDengue1.jpeg';
-// import ImageXoDengue2 from '../../assets/XoDengue2.png';
-// import ImageWeatherApp from '../../assets/weatherapp.png';
-// import ImageApiCadastro from '../../assets/apicadastro.png';
 
 interface ProjectData extends ProjectCardProps {
     id: number;
@@ -78,15 +73,12 @@ const ProjectsSection: React.FC = () => {
     return (
         <section id="projects" className="py-20 px-4">
             
-            {/* O container que centraliza o conteúdo principal (título e cards) */}
             <div className="max-w-7xl mx-auto mt-10 text-justify"> 
                 
-                {/* Título: Agora sem 'text-center' e com espaçamento ajustado */}
                 <h2 className="text-4xl text-white mb-10 pb-2 inline-block border-b border-b-gray-700">
                     <span className="text-teal-400 mr-2">02.</span> Meus Projetos
                 </h2>
                 
-                {/* Container de Grid - Mantém a responsividade */}
                 <div className="
                     grid 
                     md:grid-cols-2 

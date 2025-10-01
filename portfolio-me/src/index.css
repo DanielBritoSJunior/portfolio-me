@@ -12,7 +12,6 @@
 .animate-infinite-scroll {
   animation: infinite-scroll 25s linear infinite;
 }
-/* src/index.css */
 html, body {
   overflow-x: hidden;
 }

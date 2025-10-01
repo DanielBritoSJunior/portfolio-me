@@ -3,7 +3,6 @@ import PerfilImage from '../../assets/perfilImage.png'
 import React from 'react';
 
 const AboutSection: React.FC = () => {
-    // Texto do seu portfólio (tradução do exemplo em inglês para o português)
     const bioText = {
         paragraph1: "Olá! Meu nome é Daniel Brito da Silva Júnior e sou um desenvolvedor Full-Stack em formação, focado em construir aplicações que funcionam perfeitamente na web. Minha jornada no código começou em 2024, quando tive o primeiro contato com HTML e CSS na faculdade. Logo percebi a paixão por transformar ideias em experiências digitais e fluidas.",
 

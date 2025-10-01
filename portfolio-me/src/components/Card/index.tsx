@@ -6,13 +6,13 @@ export interface ProjectCardProps {
   description: string;
   image: string;
   githubLink: string;
-  liveLink?: string; // Alterado para opcional
+  liveLink?: string;
   technologies: string[];
-  statusTag?: string; // Adicionado para o selo de status
+  statusTag?: string;
 }
 
 const Card: React.FC<ProjectCardProps> = ({ 
-    title, description, image, githubLink, liveLink, technologies, statusTag // ⬅️ Incluindo todas as props
+    title, description, image, githubLink, liveLink, technologies, statusTag
 }) => {
   return (
     <div className="
@@ -85,7 +85,6 @@ const Card: React.FC<ProjectCardProps> = ({
             href={githubLink} 
             target="_blank" 
             rel="noopener noreferrer"
-            // ⬇️ SEU ESTILO ORIGINAL ⬇️
             className="text-sm font-semibold text-teal-400 hover:bg-teal-400 hover:text-[#0A192F] border border-teal-400 py-1 px-3 rounded transition duration-300"
           >
             Ver Código
@@ -97,7 +96,6 @@ const Card: React.FC<ProjectCardProps> = ({
               href={liveLink} 
               target="_blank" 
               rel="noopener noreferrer"
-              // ⬇️ SEU ESTILO ORIGINAL ⬇️
               className="text-sm font-semibold text-teal-400 hover:bg-teal-400 hover:text-[#0A192F] border border-teal-400 py-1 px-3 rounded transition duration-300"
             >
               Ver Projeto
