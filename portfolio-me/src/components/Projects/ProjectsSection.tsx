@@ -62,7 +62,7 @@ const projects: ProjectData[] = [
         title: 'CozinhAi *Em Desenvolvimento*',
         description: 'Versão mobile em desenvolvimento do aplicativo de receitas CozinhAi. Focado em arquitetura nativa com React Native para iOS e Android. O projeto demonstra domínio em hooks e integração com a mesma API, garantindo a paridade de experiência entre Web e Mobile. Status: Em Desenvolvimento.',
         image: '/images/cozinhai.png', 
-        githubLink: 'https://github.com/DanielBritoSJunior',
+        githubLink: 'https://github.com/ericmeneg/pi-4sem-reactnative',
         liveLink: '#',
         technologies: ['React Native', 'Expo', 'Hooks', 'APIs Mobile'],
         statusTag: 'EM DESENVOLVIMENTO' // ⬅️ AQUI ESTÁ ATIVANDO O SELO
