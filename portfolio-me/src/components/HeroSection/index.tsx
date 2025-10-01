@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
 
           {/* BOTÃO 2: DOWNLOAD CV (Estilo Sólido / Preenchido) */}
           <Botao 
-            href="/caminho/para/seu/curriculo.pdf" 
+            href="/images/Curriculo_Daniel.pdf" 
             download="Daniel-Junior-CV.pdf"
             target="_blank" 
             className="border border-teal-400 text-teal-400 hover:bg-teal-400/10"
