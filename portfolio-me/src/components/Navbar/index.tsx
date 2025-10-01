@@ -24,9 +24,8 @@ const Navbar: React.FC = () => {
             {/* ⬇️ 1. LOGO NO CANTO ESQUERDO (DBSJ) ⬇️ */}
             <div className="hidden lg:block"> {/* Usar lg para evitar conflito com hambúrguer no mobile */}
                 <span className="
-                    text-xl font-mono text-teal-400 
-                    select-none 
-                    border border-teal-400 
+                    text-lg font-mono text-teal-400 
+                    select-none  
                     py-1 px-2 leading-none
                 ">
                     @DanielBritoSJunior
@@ -58,7 +57,7 @@ const Navbar: React.FC = () => {
             {/* ⬆️ FIM CONTEÚDO DIREITO ⬆️ */}
 
 
-            {/* 3. Menu Mobile Dropdown (Panel que desliza) */}
+            {/* 3. Menu Mobile Dropdown (Painel que desliza) */}
             <div 
                 className={`
                     fixed top-0 right-0 w-2/3 h-screen lg:hidden 
@@ -66,7 +65,7 @@ const Navbar: React.FC = () => {
                     ${isOpen ? "translate-x-0" : "translate-x-full"}
                     pt-24
                 `}
-                style={{ zIndex: 40 }} // Garante que o menu móvel fique acima de tudo
+                style={{ zIndex: 40 }}
             >
                 <ul className="flex flex-col items-center space-y-8 text-xl">
                     {navItems}
