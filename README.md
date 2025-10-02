@@ -10,6 +10,10 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto é mais do que
 
 ✨ Como Executar
 
+* Acesse o link: https://portfolio-me-daniel.vercel.app/
+
+ou
+
 1.  Clone o repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
 2.  Instale as dependências: `npm install`
 3.  Inicie o projeto: `npm run dev`
