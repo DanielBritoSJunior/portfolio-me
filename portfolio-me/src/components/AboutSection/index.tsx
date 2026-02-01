@@ -19,6 +19,14 @@ const AboutSection: React.FC = () => {
         'HTML & CSS',
         'Git & GitHub',
         'Tailwind CSS',
+        'SQL & NoSQL',
+        'Sistemas Operacionais',
+        'Redes & Protocolos',
+        'Hardware Básico',
+        'Help Desk',
+        'Metodologias Ágeis'
+
+
         
     ];
 
