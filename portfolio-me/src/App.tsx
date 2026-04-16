@@ -9,7 +9,7 @@ import CustomCursor from './components/CustomCursor';
 
 function App() {
   return (
-    <div className="min-h-screen verflow-x-hidden scroll-smooth">
+    <div className="min-h-screen overflow-x-hidden scroll-smooth">
       <CustomCursor />
       <Navbar />
       <HeroSection />

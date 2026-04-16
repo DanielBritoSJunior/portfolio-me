@@ -34,7 +34,7 @@ const projects: ProjectData[] = [
         image: '/images/cozinhai.png', 
         githubLink: 'https://github.com/DanielBritoSJunior/pi-3sem',
         liveLink: 'https://pi-3sem.vercel.app/',
-        technologies: ['React', 'JavaScript', 'TypeScript', 'Next.js','API']
+        technologies: ['React', 'Node.js', 'TypeScript', 'Next.js','API']
     },
     
     {
@@ -59,13 +59,12 @@ const projects: ProjectData[] = [
     
     {
         id: 6,
-        title: 'CozinhAi *Em Desenvolvimento*',
-        description: 'Versão mobile em desenvolvimento do aplicativo de receitas CozinhAi. Focado em arquitetura nativa com React Native para iOS e Android. O projeto demonstra domínio em hooks e integração com a mesma API, garantindo a paridade de experiência entre Web e Mobile. Status: Em Desenvolvimento.',
-        image: '/images/cozinhai.png', 
-        githubLink: 'https://github.com/ericmeneg/pi-4sem-reactnative',
-        liveLink: '#',
-        technologies: ['React Native', 'Expo', 'Hooks', 'APIs Mobile'],
-        statusTag: 'EM DESENVOLVIMENTO' // ⬅️ AQUI ESTÁ ATIVANDO O SELO
+        title: 'Social Media App',
+        description: 'Este projeto é um agregador de links (Linktree Clone) desenvolvido para servir como o cartão de visitas digital do meu ecossistema como desenvolvedor. Ele centraliza meu currículo, redes profissionais e projetos em uma interface minimalista e otimizada.',
+        image: './images/sociallinks.png', 
+        githubLink: 'https://github.com/DanielBritoSJunior/links-social-app',
+        liveLink: 'https://links-social-app.vercel.app',
+        technologies: ['React', 'JavaScript', 'Tailwind CSS'],
     },
 ];
 
