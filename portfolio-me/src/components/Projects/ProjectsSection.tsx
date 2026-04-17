@@ -9,12 +9,12 @@ interface ProjectData extends ProjectCardProps {
 const projects: ProjectData[] = [
     {    
         id: 1,
-        title: 'Xô Dengue',
-        description: 'Site Institucional One Page focado na conscientização e combate à dengue em Indaiatuba. Desenvolvido no primeiro semestre da faculdade, o projeto utilizou HTML, CSS, JavaScript e pegando dados da API - Info Dengue para criar uma experiência informativa e acessível, com foco em educar o usuário sobre a prevenção do mosquito Aedes aegypti.',
-        image: '/images/xodengue2.png', 
-        githubLink: 'https://github.com/DanielBritoSJunior/pi-dengue',
-        liveLink: 'https://pi-dengue.vercel.app/',
-        technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'API']
+        title: 'PriceTracker',
+        description: 'Uma aplicação web moderna e limpa, ainda em desenvolvimento, para monitorar preços de produtos de sites de e-commerce. Os usuários podem colar a URL de um produto e acompanhar as mudanças de preço ao longo do tempo. O painel mostra os produtos salvos em cartões com imagem, nome do produto, preço atual, preço anterior e indicadores de variação (aumento ou queda).',
+        image: '/images/PriceTracker.png', 
+        githubLink: 'https://github.com/DanielBritoSJunior/price-tracker',
+        liveLink: 'https://price-tracker-one-amber.vercel.app/',
+        technologies: ['React','Tailwind CSS', 'Node.js', 'Axios', 'Express', 'MongoDB'],
     }, 
     
     {
